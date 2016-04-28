@@ -1,7 +1,5 @@
-import locale
 from collections import namedtuple
 
-locale.setlocale(locale.LC_ALL, 'en_US')
 
 MonthlyPayment = namedtuple('MonthlyPayment',
     'payment_number, payment, principal, interest, total_interest, balance')
